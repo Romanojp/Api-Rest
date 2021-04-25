@@ -13,7 +13,11 @@ import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 import org.springframework.test.web.servlet.result.MockMvcResultMatchers;
-
+//
+//O build da aplicação é realizado via maven, com o comando mvn clean package.
+//Ao realizar o build, por padrão será criado um arquivo .jar.
+//É possível passar parâmetros para as configurações da aplicação via variáveis de ambiente.
+//É possível alterar o build para criar um arquivo .war, para deploy em servidores de aplicações.
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
